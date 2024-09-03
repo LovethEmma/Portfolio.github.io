@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* style for the landing page image */
+#landing{
+    height: 97vh;
+    width: 100%;
+    background-image: url(Screenshot_20240818-224841~2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+#MainNav h2, li, a {
+    color: #ffff;
+}
+#MainNav h2 span{
+    color: #f9004d;
+}
+#MainNav h2{
+    font-size: 40px;
+}
+#MainNav{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+#NavLinks{
+    display: flex;
+    justify-content: space-evenly;
+}
+#NavLinks li{
+padding: 0px 6px;
+font-size: 20px;
+font-weight: bold;
+list-style: none;
+transition: 0.5;
+}
+#NavLinks li :hover {
+    text-decoration: none;
+    color: rgb(186, 14, 14);
+    background: transparent;
+}
+a{
+    text-decoration: none;
+}
+
+.content{
+   margin-top: 12%;
+   margin-left: 6%;
+   max-width: 600px;
+}
+.content h3{
+    font-size: 55px;
+}
+.content p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+.content h3, p, a {
+color: #ffff;
+} 
+.login{
+    color: #fff;
+    font-size: 18px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.register{
+    color: #fff;
+    text-decoration: none;
+    background-color: gray;
+    padding: 9px 25px;
+    border-radius: px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttons li,a{
+    list-style: none;
+    transition: 0.5s;
+}
+.buttons li,a:hover{
+    color: gray;
+    background: transparent;
+}
+.link{
+    margin-top: 30px;
+}
+.link .hire{
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    padding: 9px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.link .hire:hover{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #f9004d;
+}
